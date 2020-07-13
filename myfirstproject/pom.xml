@@ -10,7 +10,7 @@
   <name>myfirstproject</name>
   <url>http://maven.apache.org</url>
    <properties>
-        <springframework.version>4.3.6.RELEASE</springframework.version>
+        <springframework.version>5.2.7.RELEASE</springframework.version>
     </properties>
  
     <dependencies>
