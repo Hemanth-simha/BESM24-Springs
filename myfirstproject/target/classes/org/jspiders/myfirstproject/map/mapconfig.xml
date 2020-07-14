@@ -8,8 +8,25 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd">
 
-	<bean name="person" class="org.jspiders.myfirstproject.Person"
-	p:id="101" p:name="king" p:age="18" p:contact="8686166202"/>
-	
+	<bean name="country" class="org.jspiders.myfirstproject.map.Country"
+	 p:name="India">
+	  <property name="states">
+	  <map>
+	   <entry key="Karnataka">
+	    <value>kannada</value>
+	   </entry>
+	   
+	   <entry key="Kashmir">
+	    <value>kashmiri</value>
+	   </entry>
+	   
+	   <entry key="WestBengal" value="Hindi">
+	   </entry>
+
+		<entry key="MP" value="Hindi"/>
+
+	  </map>
+	  </property>
+	</bean>
 	
 </beans>

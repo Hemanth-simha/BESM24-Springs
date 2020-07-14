@@ -8,24 +8,8 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd">
 
-	<bean name="person" class="org.jspiders.myfirstproject.Person">
-		
-		<property name="id">
-		 	<value>101</value>
-		</property>
+	<bean name="person" class="org.jspiders.myfirstproject.Person"
+	p:id="101" p:name="king" p:age="18" p:contact="8686166202"/>
 	
-		<property name="name">
-			<value>King</value>
-		</property>
 	
-		<property name="age">
-			<value>22</value>
-		</property>
-		
-		<property name="contact">
-			<value>8686266202</value>
-		</property>
-		
-	</bean>	
-
 </beans>
