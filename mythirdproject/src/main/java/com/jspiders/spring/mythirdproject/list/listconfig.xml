@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:c="http://www.springframework.org/schema/c"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<bean name="student" class="com.jspiders.spring.mythirdproject.list.Student"
+	c:id="101" c:name="Blake" c:branch="CSE">
+	
+	<constructor-arg name="subjects">
+	<list>
+	<value>Java</value>
+	<value>DBMS</value>
+	<value>Advance Java</value>
+	<value>Web Technologies</value>
+	</list>
+	</constructor-arg>
+	
+	</bean>
+	
+</beans>
